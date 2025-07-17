@@ -1,0 +1,114 @@
+# ==============================
+# Node.js
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional build files
+dist/
+build/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# ==============================
+# Python
+# ==============================
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test and coverage tools
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+coverage.xml
+htmlcov/
+.pyre/
+.mypy_cache/
+
+# Python environment files
+Pipfile.lock
+poetry.lock
+
+# IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyInstaller
+*.spec
+
+# Local development artifacts
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# =================================
+# System Files and Miscellaneous
+# =================================
+*.swp
+*.bak
+*.tmp
+*.orig
+*.old
+*.log
+*.tgz
+*.tar.gz
+*.zip
+
+# MacOS and Windows system files
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+desktop.ini
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
