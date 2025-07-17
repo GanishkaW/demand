@@ -12,8 +12,7 @@ dist/
 build/
 
 # Local environment variables
-.env
-.env.*
+
 !.env.example
 
 # VS Code settings
@@ -35,8 +34,7 @@ __pycache__/
 # Virtual environments
 venv/
 .venv/
-ENV/
-env/
+
 
 # Jupyter Notebooks
 .ipynb_checkpoints/

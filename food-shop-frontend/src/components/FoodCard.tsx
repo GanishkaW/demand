@@ -4,7 +4,7 @@ interface Props {
   food: {
     id: number;
     name: string;
-    price: string;
+    price: number;
     ingredients: string;
   };
 }
