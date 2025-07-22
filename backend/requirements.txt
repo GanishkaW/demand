@@ -1,3 +1,4 @@
+# FastAPI and backend dependencies
 fastapi
 uvicorn
 sqlalchemy
@@ -5,3 +6,29 @@ psycopg2-binary
 python-dotenv
 passlib[bcrypt]
 python-jose
+
+# Data manipulation
+pandas
+numpy
+
+# Machine learning
+scikit-learn
+joblib
+tensorflow  # Includes Keras
+
+# Visualization
+matplotlib
+seaborn
+
+# Clustering
+inflect
+
+# Date handling and holidays
+holidays
+
+# Web scraping
+requests
+beautifulsoup4
+
+# Optional (if you use pathlib-based paths or want OS-safe handling)
+# pathlib  # Not needed to install; part of standard library
