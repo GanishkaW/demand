@@ -27,7 +27,7 @@ class UserOut(BaseModel):
 # --- Food Schemas ---
 class FoodCreate(BaseModel):
     name: str
-    price: str
+    price: float
 
 class FoodOut(FoodCreate):
     id: int
