@@ -17,6 +17,9 @@ This guide explains how to set up and run the FastAPI application locally using 
 ### Windows
 ```bash
 python -m venv venv
+or
+py -3.10 -m venv venv
+
 venv\Scripts\activate
 ```
 
